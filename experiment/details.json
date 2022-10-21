@@ -1,0 +1,52 @@
+{
+
+   "details": [
+       {
+			"Experiment": "Carry out fly leveling using auto level",     
+			"Lab": "Surveying",               
+			"Discipline": "Civil Engineering",				 
+			"Technology": "HTML, JavaScript, CSS"         
+       }
+   ],
+
+   "developer": [
+       {       
+      "Developer": "Prof. RS Anand",         
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",         
+      "InstituteAcronym": "IITR"   
+       }
+   ],
+
+   "contributer": [
+       {       
+			"Contributer": "Jasbir Singh",             
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
+			"InstituteAcronym": "IITR"         
+       },
+
+       {       
+			"Contributer": "Rajeev Kumar",              
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
+			"InstituteAcronym": "IITR"         
+       },
+
+       {       
+			"Contributer": "Priyanshi Agarwal",             
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
+			"InstituteAcronym": "IITR"         
+       },
+
+       {       
+			"Contributer": "Nipun Jain",             
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
+			"InstituteAcronym": "IITR"         
+       },
+
+       {       
+			"Contributer": "Piyush Rawat",             
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
+			"InstituteAcronym": "IITR"         
+       }
+   ]
+
+}
