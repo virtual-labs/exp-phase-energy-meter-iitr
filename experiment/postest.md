@@ -2,45 +2,42 @@
 #### Please attempt the following questions
 
 <br>
-Q1. A fixed point of reference of known elevation is known as:<br>
-<b>A   Bench Mark</b><br>
-B   Datum<br>
-C   Change point<br>
-D   Station point<br>
+Q1. Creeping is avoided by __________  
 <br><br>
+A   Reversing the polarity of the voltage<br>
+<b>B   Drilling two diametrically opposite holes</b><br>
+C   Holding the disc<br>
+D   Increasing the friction<br>
+<br>
 
-Q2. Which of the following methods of offsets involves less measurement
-on the ground?<br>
+Q2. In some energy meters, creeping can be avoided by _________<br>
 
-<b>A   method of perpendicular offsets</b><br>
-B   method of oblique offsets<br>
-C    method of ties<br>
-D   all involve equal measurement on the ground<br>
-<br><br>
+A   attaching small gold pieces<br>
+B   attaching small aluminium pieces<br>
+<b>C    attaching small iron pieces</b><br>
+D   attaching small zinc pieces<br>
+<br>
 
-Q3. The cross hairs in the surveying telescope are placed:<br>
+Q3. The meter constant of single phase energy meter is expressed in terms of<br>
 
-A    much closer to the objective lens than to the eye piece<br>
-B   midway between eye piece and objec-tive lens<br>
-<b>C   much closer to the eye-piece than to the objective lens</b><br>
-D   anywhere between eye-piece and objective lens<br><br>
+<b>A    Revolutions/kWh</b><br>
+B   kW/kWh<br>
+C   Amps/kW<br>
+D   Volts/kWh<br><br>
 
+Q4.  If voltage supply to the energy meter is more than the rated value, energy meter will run<br>
 
-Q4.  The adjustment of horizontal cross hair is required particularly
-when the instrument is used for:<br>
+<b>A    Slow</b><br>
+B   Fast<br>
+C   Either of the above<br>
+D   None of the above<br><br>
 
-<b>A    leveling</b><br>
-B   prolonging a straight line<br>
-C    measurement of horizontal angles<br>
-D   all of the above<br><br>
+Q5. Aluminium is selected as the material for rotating disc of energy meter because<br>
 
-
-Q5. When the bubble of the level tube of a level remains central?<br>
-
-A   Axis of the telescope is horizontal<br>
-B   Less costly than a theodolite survey<br>
-<b>C   Line of sight is horizontal</b><br>
-D   Geometrical axis of the telescope is horizontal<br>
+A   It is good conductor<br>
+B   It is light<br>
+C   It is indigenously available<br>
+<b>D   All of the above reasons</b><br>
 <br>
 
 
