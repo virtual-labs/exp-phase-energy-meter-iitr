@@ -1,42 +1,42 @@
-## <b> Pre-test
+##  Pre Test 
 #### Please attempt the following questions
 
-Q1. The real image of an object formed by the objective must lie:<br>
+Q1. Magnitude of flux in an energy meter varies _________<br>
 
-A   At the centre of the telescope<br>
-B   At the optical centre of the eye-piece<br>
-C   Anywhere inside the telescope<br>
-<b>D   In the plane of cross hairs</b><br><br>
-
-
-Q2. Fly levelling is another name of __________<br>
-
-<b>A   Differential levelling</b><br>
-B   Cross levelling<br>
-C   Profile levelling<br>
-D   Reciprocal levelling<br><br>
+<b>A   due to abnormal currents and voltages</b><br>
+B   due to high resistance and inductance values<br>
+C   due to changes in the transformer turns<br>
+D   due to the induced e.m.f in the windings<br><br>
 
 
-Q3. A method of differential levelling is used in order to find the difference in elevation between two points when:<br>
+Q2. How can temperature effect be compensated in an energy meter?<br>
 
-A   they are too far apart<br>
-B   the difference in elevation between them is too great<br>
-C   there are obstacles between them<br>
-<b>D   All of the above</b><br><br>
-
-
-
-Q4. In plane tabling, the instrument used to measure horizontal and vertical distances directly, is known as:<br>
-
-A   plane alidade<br>
-<b>B   telescopic alidade</b><br>
-C   tacheometer<br>
-D   clinometer<br><br>
+A   through heat sinks<br>
+<b>B   by a temperature shunt</b><br>
+C   by using resistance<br>
+D   by using a coolant<br><br>
 
 
-Q5. Rise and fall method is used in:<br>
+Q3. Energy meter creeps _________<br>
 
-A   profile levelling<br>
-B   differential levelling<br>
-C   check levelling<br>
-<b>D   both differential and check levelling</b><br><br>
+A   due to change in supply<br>
+B   due to reversal in polarity of voltage<br>
+<b>C   due to asymmetry in magnetic circuit</b><br>
+D   due to asymmetry in electric circuit<br><br>
+
+
+
+Q4. Supply voltage in an energy meter is _________ <br>
+
+A   constant always<br>
+B   zero always<br>
+C   depends on the load<br>
+<b>D   can fluctuate</b><br><br>
+
+
+Q5. How is the flux of shunt coil related to voltage?<br>
+
+<b>A   flux is proportional to square of voltage</b><br>
+B   directly proportional<br>
+C   inversely proportional<br>
+D   independent of each other<br><br>
