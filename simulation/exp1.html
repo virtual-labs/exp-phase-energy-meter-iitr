@@ -1,0 +1,40 @@
+<html>
+<head>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body onkeydown="getKeyAndMove(event)">
+
+    <div id="main_ob_plot">
+    <button id="ins">INSTRUCTIONS
+    </button>
+           <span id="ins_span"><b>1.</b>  Click on <b>EQUIPMENT SETUP</b> Button.<br><br>
+<b>2.</b> After this, you need to setup autolevel instrument by placing it on the tripod using keyboard keys i.e.l->left movement,r->right movement,u->up movement,d->down movement.<br><br>
+<b>3.</b> After this, click on <b>LEVEL SETUP</b> Button & setup blue bubble dot to the center by using keyboard keys i.e.a->left movement,b->right movement,f->up movement,g->down movement..<br><br>
+<b>4.</b>After this, click on the <b>NEXT</b> Button.<br><br>
+<b>5.</b> Click on the <b>START</b> Button, staff at point A will appear.<br><br>
+<b>6.</b> Click on the staff at point A & after this, click on the <b>SAVE</b> Button to save readings at point A.After this click on <b>NEXT</b> Button to move the staff at point B.<br><br>
+<b>7.</b> Repeat step 6 for points B,C & D.<br><br>
+<b>8.</b> After click on <b>VIEW READINGS</b> Button to view saved readings.<br><br>
+<b>9.</b> Alidade view of each point is also given at the left side of the pane.<br><br>
+<b>10.</b> Click on the <b>FINISH</b> Button to finish the simulation.<br><br>
+</span>
+    
+
+<img id="pointb" src="images\pointb.png"><span id="b">A</span>
+<img id="pointc" src="images\pointc.png"><span id="c">B</span>
+<img id="pointd" src="images\pointd.png"><span id="d">C</span>
+<img id="pointe" src="images\pointe.png"><span id="e">D</span>
+<img id="tri_img" src="images\trimodel.png">
+<img id="autolevel" src="images\auto.png">
+<a href="exp2.html"><button id="setting">EQUIPMENT SETUP</button></a>
+
+</div>
+ 
+<script src="js/main.js"></script>
+
+</body>
+</html>
