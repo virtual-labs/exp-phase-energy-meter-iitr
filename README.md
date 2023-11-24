@@ -4,7 +4,7 @@
 <b>Discipline | <b>Electrical Engineering
 :--|:--|
 <b> Lab | <b> Electrical Measurements Lab
-<b> Experiment|     <b> Calibration and Testing of single phase energy Meter.
+<b> Experiment|     <b>8. Calibration and Testing of single phase energy Meter.
 
 ### About the Experiment 
 

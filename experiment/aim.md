@@ -1,4 +1,4 @@
 #### Aim
-* Understanding the use of energy-meter.
+* Understanding the use of Energy-meter.
 * In depth knowledge on Energy metering.
-* Understanding the calculation of energy meter error in three types of loading conditions.
+* Understanding the calculation of Energy meter error in three types of loading conditions.

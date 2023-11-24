@@ -1,42 +1,37 @@
 ##  Pre Test 
 #### Please attempt the following questions
 
-Q1. Magnitude of flux in an energy meter varies _________<br>
+Q1. Magnitude of flux in an energy meter varies _________.<br>
 
-<b>A   due to abnormal currents and voltages</b><br>
-B   due to high resistance and inductance values<br>
-C   due to changes in the transformer turns<br>
-D   due to the induced e.m.f in the windings<br><br>
-
+a.   Due to abnormal current and voltage<br>
+b.   Due to high resistance and inductance values<br>
+c.   Due to changes in the transformer turns<br>
+d.   Due to the induced e.m.f in the windings<br>
 
 Q2. How can temperature effect be compensated in an energy meter?<br>
 
-A   through heat sinks<br>
-<b>B   by a temperature shunt</b><br>
-C   by using resistance<br>
-D   by using a coolant<br><br>
+a.   Through heat sinks<br>
+b.   By a temperature shunt<br>
+c.   By using resistance<br>
+d.   By using a coolant<br>
 
+Q3. Energy meter creeps _________.<br>
 
-Q3. Energy meter creeps _________<br>
+a.   Due to change in supply<br>
+b.   Due to reversal in polarity of voltage<br>
+c.   Due to asymmetry in magnetic circuit<br>
+d.   Due to asymmetry in electric circuit<br>
 
-A   due to change in supply<br>
-B   due to reversal in polarity of voltage<br>
-<b>C   due to asymmetry in magnetic circuit</b><br>
-D   due to asymmetry in electric circuit<br><br>
+Q4. Supply voltage in an energy meter is?<br>
 
-
-
-Q4. Supply voltage in an energy meter is _________ <br>
-
-A   constant always<br>
-B   zero always<br>
-C   depends on the load<br>
-<b>D   can fluctuate</b><br><br>
-
+a.   Constant always<br>
+b.   Zero always<br>
+c.   Depends on the load<br>
+d.   Can fluctuate<br>
 
 Q5. How is the flux of shunt coil related to voltage?<br>
 
-<b>A   flux is proportional to square of voltage</b><br>
-B   directly proportional<br>
-C   inversely proportional<br>
-D   independent of each other<br><br>
+a.   Flux is proportional to square of voltage<br>
+b.   Directly proportional<br>
+c.   Inversely proportional<br>
+d.   Independent of each other<br>
