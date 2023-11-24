@@ -4,12 +4,14 @@
 
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>VIRTUAL_LAB</title>
+	<title>Virtual Labs | Calibration and Testing of Single Phase Energy Meter</title>
 	<link rel="stylesheet" href="css/page.css">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="css/demo1.css">
+  <script async="true" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=AM_CHTML"> </script>
 
+  <link rel="stylesheet" href="css/demo1.css">
+  <link rel="icon" href="./images/Vlab logo.jpg" type="image/x-icon">
 
 <!--link of Seven Segment code  starts-->
 
@@ -34,7 +36,8 @@
 <!--container1 contains logo html code begins-->	
 
 				<div class="container1" style="position: absolute;">
-		    <img src="images/Indian_Institute_of_Technology_Roorkee_logo.png" width="95px" height="95px" style="margin-left: 5px; float: left;" ><center><h2 >Virtual Labs IIT Roorkee<br>Electrical Measurements Laboratory<br></h2><h2 style="background-color: black;">Calibration and Testing of Single Phase Energy Meter</h2></center></div>
+		    <img src="images/Indian_Institute_of_Technology_Roorkee_logo.png" width="95px" height="92.5px" style="margin-left: 5px; float: left;" ><center><h2 >Virtual Labs IIT Roorkee<br>Electrical Measurements Laboratory<br>
+        </h2><h2 style="background-color: black; width: 1381px;position: relative;left: -2px;">Calibration and Testing of Single Phase Energy Meter</h2></center></div>
 		    <div style="position: relative;margin-top: 100px;"></div><br>			
 <br>
 </div>
@@ -44,8 +47,9 @@
 <!--container2 begins-->
 
 <div class="container2" style="position:absolute;float: left;">
-<img src="images\mcb1.png" width="100px" height="150px" style="margin-left:2px;margin-top:3px;position:absolute" id="mcbb" class="disabled" onclick="mcbonoff();"><div id="mcb" style="position:absolute;"></div>
+<img src="images\mcb1.png" width="100px" height="150px" style="margin-left:2px;margin-top:3px;position:absolute" id="mcbb"  onclick="mcbonoff();"><div id="mcb" style="position:absolute;"></div>
 
+<b> <p style="position:absolute; color: black; margin-left: 30px; margin-top:110px; font-size: 20px;">MCB</p></b>
 
 
 
@@ -111,17 +115,17 @@
 <div class="red">
 <img src="images\ledoff.png" width="10px" height="10px" id="redled"></div>
 <div class="yellow">
-<img src="images\ledoff.png" width="8px" height="8px" id="blink"></div>
+<img src="images\ledoff.png" width="9px" height="9px" id="blink"></div>
 <div class="yellow">
-<img src="images\ledoff.png" width="8px" height="8px" id="blink1"></div>
+<img src="images\ledoff.png" width="9px" height="9px" id="blink1"></div>
 <div class="yellow">
-<img src="images\ledoff.png" width="8px" height="8px" id="blink2"></div>
+<img src="images\ledoff.png" width="9px" height="9px" id="blink2"></div>
 <div class="yellow">
-<img src="images\ledoff.png" width="8px" height="8px" id="blink3"></div>
+<img src="images\ledoff.png" width="9px" height="9px" id="blink3"></div>
 </div> 
 			
       <img src="images\Meter.png" width="160px" height="200px" style="margin-top:266px; margin-left:2px;position:absolute;"><div id="meter"style="position:absolute;">
-
+        <b> <p style="position:absolute; color:black; margin-left:-10px; margin-top:-200px; font-size: 20px;">ENERGY&nbsp;METER</p></b>
       <select id="select_1" class="gwd-select-li9t" disabled = "true"><sup >No. Of Bulbs</sup>
           <option value="0" disabled selected>Bulbs</option>
           <option value="1">6</option>
@@ -135,15 +139,19 @@
 
 
 <!--stopwatch html begins-->
+        <div class="timer_all">
+          <div id="timer">
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif;font-size:20px; color:white; margin-top: 5px; margin-left: 20px;" > STOPWATCH </p>
+            <div id="stopwatch" class="body">00:00:00</div>    
+          </div>
 
-			<div id="stopwatch" class="body">00:00:00</div>
         <ul id="buttons">
-            <li><button onclick="startTimer()">Start</button></li>
-            <li><button onclick="stopTimer()">Stop</button></li>
-
-            <li><button onclick="resetTimer()">Reset</button></li>
+            <li><button class="btn1" onclick="startTimer()">START</button></li>
+            <li><button class="btn2" onclick="stopTimer()">STOP</button></li>
+            <li><button class="btn3" onclick="resetTimer()">RESET</button></li>
         </ul>
 
+      </div>
 <!--stopwatch html end-->
 
 
@@ -160,6 +168,9 @@
       <img src="images\bulboff.png" style="height:55px;width:45px;" class="bulb8" id="bulb8" disabled="true">
       <img src="images\bulboff.png" style="height:55px;width:45px;" class="bulb9" id="bulb9" disabled="true">
       <img src="images\bulboff.png" style="height:55px;width:45px;" class="bulb10" id="bulb10" disabled="true">
+
+      <b> <p style="position:absolute; color:black; margin-left:535px; margin-top:60px; font-size: 20px;">LAMP LOAD</p></b>
+
 			
 <!--bulbs code end-->  
 
@@ -173,22 +184,23 @@
   <div class="dropdown">
   <button class="dropbtn">INSTRUCTIONS</button>
   <div class="dropdown-content">
-   <b><p>STEP 1 : Make all the Correct Connections.</p></b>
-   <p>1.&nbsp &nbsp S1 of MCB - A1 of Ammeter  &&  A2 of Ammeter - V1 of Voltmeter</p> 
-   <p>2.&nbsp &nbsp V1 of Voltmeter - Mw of Wattmeter  &&  L of Wattmeter - C of Wattmeter</p>
-   <p>3.&nbsp &nbsp S2 of MCB - V of Wattmeter  &&  V of Wattmeter - N1 of Energy Meter</p>
-   <p>4.&nbsp &nbsp N2 of Energy Meter - L2 of Load  &&  Le of Energy Meter - L1 of Load</p>
-   <p>5.&nbsp &nbsp L of Wattmeter - M of Energy Meter  &&  S2 of MCB - V2 of Voltmeter</p>
-   <b><p>STEP 2 : Click on "Check" Button.</p></b>
-   <b><p>STEP 3 : Click on the MCB to Turn ON the circuit.</p></b>
-   <b><p>STEP 4 : Select the number of Bulbs from the Lamp Load.</p></b>
-   <b><p>STEP 5 : Count the number of times Green LED blinks in 1min(Meter Counter) by using "STOPWATCH".</p></b>
-   <b><p>STEP 6 : Enter the number of times Green LED blinks in 1min(Meter Counter).</p></b> 
-   <b><p>STEP 7 : Note down the readings of the Ammeter, Voltmeter & Wattmeter.</p></b>
-   <b><p>STEP 8 : Click "ADD" button to add the values to the Observation Table.</p></b>
-   <b><p>STEP 9 : Add different values to the Table by selecting different number of bulbs.</p></b>
-   <b><p>STEP 10 : Click on "PRINT" button to print the page.</p></b>
+   <p><b>STEP 1 :</b> Make Connections as per the instructions given below:</p>
+   <p><b>1.</b>&nbsp &nbsp <b>S1</b> of MCB - <b>A1</b> of Ammeter and <b>A2</b> of Ammeter - <b>V1</b> of Voltmeter</p> 
+   <p><b>2.</b>&nbsp &nbsp <b>V1</b> of Voltmeter - <b>Mw</b> of Wattmeter and <b>Mw</b> of Wattmeter - <b>C</b> of Wattmeter</p>
+   <p><b>3.</b>&nbsp &nbsp <b>S2</b> of MCB - <b>V</b> of Wattmeter and <b>V</b> of Wattmeter - <b>N1</b> of Energy Meter</p> 
+   <p><b>4.</b>&nbsp &nbsp <b>N2</b> of Energy Meter - <b>L2</b> of Load and <b>Le</b> of Energy Meter - <b>L1</b> of Load</p>
+   <p><b>5.</b>&nbsp &nbsp <b>L</b> of Wattmeter - <b>M</b> of Energy Meter and <b>S2</b> of MCB - <b>V2</b> of Voltmeter</p>
 
+   <p><b>NOTE : If wire is wrongly connected, Click on node number to detach the wire.</b></p>
+   <p><b>STEP 2 :</b> Click on <b>"CHECK"</b> button for checking the connections.</p>
+   <p><b>STEP 3 :</b> Click on the MCB to Turn ON the supply.</p>
+   <p><b>STEP 4 :</b> Select the number of Bulbs from the Lamp Load.</p>
+   <p><b>STEP 5 :</b> Count the number of times Green LED blinks in 1 min (Meter Counter) by using '<b>Stopwatch</b>'.</p>
+   <p><b>STEP 6 :</b> Enter the number of times Green LED blinks in 1 min (Meter Counter).</p>
+   <p><b>STEP 7 :</b> Click on <b>"ADD"</b> button to add the readings to the Observation Table.</p>
+   <p><b>STEP 8 :</b> Add different readings to the table by selecting different number of bulbs.</p>
+   <p><b>STEP 9 :</b> Click on <b>"PRINT"</b> button to print the webpage.</p>
+   <p><b>STEP 10 :</b> Click on <b>"RESET"</b> button to refresh the webpage.</p>
   </div>
 </div>
 
@@ -198,14 +210,14 @@
 
 <!--FORMULA HTML STARTS-->
 <div class="container6">
-  <h2>FORMULA</h2>
-  <div><p>Actual Energy (A) = VIT/1000 kw-hr</p>
-  <p>Recorded Energy (R) = Number of Impulse(1min)/Meter Constant </p>
+  <center><h2>FORMULA</h2></center>
+  <div><p>Actual Energy (A) = `(VIT)/1000` kw-hr</p>
+  <p>Recorded Energy (R) = Number of Impulse (1min)/Meter Constant </p>
   <p>Meter Constant = 3200 Imp/kw-hr</p>
-  <p>Relative Error = ((R-A)/A)*100%</p>
+  <p>Relative Error = `(R-A)/A`*100%</p>
 
-  <p>Enter the no. of times Green LED blinks in 1min(Meter Counter)<input type="text"  id="metercount"></p>
- <div id="MCount" class="button "  onclick="metercount();">Check meter count</div>
+  <p>Enter the no. of times Green LED blinks in 1min(Meter Counter)<input type="text"  id="metercount" style="margin-top:8px;"></p>
+ <input type="button" id="MCount" class="button" value="Check Meter Count" onclick="metercount();">
         </div>
 </div>
 <!--FORMULA HTML ENDS-->
@@ -214,32 +226,33 @@
 <!--connectors html begins-->
 			 
        <div class="jtk-demo-main">
-            <div class="jtk-demo-canvas canvas-wide animation-demo jtk-surface jtk-surface-nopan" id="canvas">
-                <div class="littledot" id="ld1"></br><a href="#" class="cmdLink detach" rel="ld1">A1</a></div>
-                <div class="littledot" id="ld2"></br><a href="#" class="cmdLink detach" rel="ld2">A2</a></div>
-                <div class="littledot" id="ld3"></br><a href="#" class="cmdLink detach" rel="ld3">V1</a></div>
-                <div class="littledot" id="ld4"></br><a href="#" class="cmdLink detach" rel="ld4">V2</a></div>
-                <div class="littledot" id="ld5"></br><a href="#" class="cmdLink detach" rel="ld5">Mw</a></div>
-                <div class="littledot" id="ld6"></br><a href="#" class="cmdLink detach" rel="ld6">L</a></div>
-                <div class="littledot" id="ld7"></br><a href="#" class="cmdLink detach" rel="ld7">C</a></div>
-                <div class="littledot" id="ld8"></br><a href="#" class="cmdLink detach" rel="ld8">V</a></div>
-                <div class="littledot" id="ld9"></br><a href="#" class="cmdLink detach" rel="ld9">S1</a></div>
-                <div class="littledot" id="ld10"></br><a href="#" class="cmdLink detach" rel="ld10">S2</a></div>
-                <div class="littledot" id="ld11"></br><a href="#" class="cmdLink detach" rel="ld11">M</a></div>
-                <div class="littledot" id="ld12"></br><a href="#" class="cmdLink detach" rel="ld12">N1</a></div>
-                <div class="littledot" id="ld13"></br><a href="#" class="cmdLink detach" rel="ld13">N2</a></div>
-                <div class="littledot" id="ld14"></br><a href="#" class="cmdLink detach" rel="ld14">Le</a></div>
-                <div class="littledot" id="ld15"></br><a href="#" class="cmdLink detach" rel="ld15">L1</a></div>
-                <div class="littledot" id="ld16"></br><a href="#" class="cmdLink detach" rel="ld16">L2</a></div>
+            <div class="jtk-demo-canvas canvas-wide animation-demo jtk-endpoint jtk-surface jtk-surface-nopan" id="canvas">
+                <div class="littledot" id="ld1"></br><a href="#" class="cmdLink detach" rel="ld1" id="dis1">A1</a></div>
+                <div class="littledot" id="ld2"></br><a href="#" class="cmdLink detach" rel="ld2" id="dis2">A2</a></div>
+                <div class="littledot" id="ld3"></br><a href="#" class="cmdLink detach" rel="ld3" id="dis3">V1</a></div>
+                <div class="littledot" id="ld4"></br><a href="#" class="cmdLink detach" rel="ld4" id="dis4">V2</a></div>
+                <div class="littledot" id="ld5"></br><a href="#" class="cmdLink detach" rel="ld5" id="dis5">Mw</a></div>
+                <div class="littledot" id="ld6"></br><a href="#" class="cmdLink detach" rel="ld6" id="dis6">L</a></div>
+                <div class="littledot" id="ld7"></br><a href="#" class="cmdLink detach" rel="ld7" id="dis7">C</a></div>
+                <div class="littledot" id="ld8"></br><a href="#" class="cmdLink detach" rel="ld8" id="dis8">V</a></div>
+                <div class="littledot" id="ld9"></br><a href="#" class="cmdLink detach" rel="ld9" id="dis9">S1</a></div>
+                <div class="littledot" id="ld10"></br><a href="#" class="cmdLink detach" rel="ld10" id="dis10">S2</a></div>
+                <div class="littledot" id="ld11"></br><a href="#" class="cmdLink detach" rel="ld11" id="dis11">M</a></div>
+                <div class="littledot" id="ld12"></br><a href="#" class="cmdLink detach" rel="ld12" id="dis12">N1</a></div>
+                <div class="littledot" id="ld13"></br><a href="#" class="cmdLink detach" rel="ld13" id="dis13">N2</a></div>
+                <div class="littledot" id="ld14"></br><a href="#" class="cmdLink detach" rel="ld14" id="dis14">Le</a></div>
+                <div class="littledot" id="ld15"></br><a href="#" class="cmdLink detach" rel="ld15" id="dis15">L1</a></div>
+                <div class="littledot" id="ld16"></br><a href="#" class="cmdLink detach" rel="ld16" id="dis16">L2</a></div>
 <br><br>
-            </div><br></div>
+            </div><br></div> 
         
+        <div class="btn" style="position:absolute; margin-left: 95px;">
+        <div class="button" id="check-button" style="position:absolute; margin-left: 30px; margin-top: 603px;  padding: 8px 15px; font-size: 17px; border-radius: 12px;box-shadow: 5px 5px 5px darkgreen;">CHECK</div>
+        <input type="button" value="ADD" class="button"  id="add" disabled style="position:absolute; margin-left: 170px; margin-top: 603px; padding: 8px 20px; font-size: 17px; border-radius: 12px;box-shadow: 5px 5px 5px darkgreen;" onclick="addtotable();">
+        <div class="button"  id="button"  style="position:absolute; margin-left: 292px; margin-top: 603px; padding: 8px 15px; font-size: 17px; border-radius: 12px;box-shadow: 5px 5px 5px darkgreen;" onclick="window.location.href = 'index.html';">RESET</div>
+        <input style="position:absolute; margin-left: 425px; margin-top: 603px; padding: 8px 15px; font-size: 17px; border-radius: 12px;box-shadow: 5px 5px 5px darkgreen;" type = "button" value = "PRINT" class="button " onclick="window.print()">
+        </div>
 
-        <div class="button" id="check-button" style="position:absolute; left: 1em; top: 653px;width: 40px;height: 14px;">CHECK</div>
-        <div class="button"  id="button" style="position:absolute; left: 10em; top: 653px;width: 40px;height: 14px;" onclick="window.location.href = 'index.html';">RESET</div>
-        <div class="button disabled"  id="add" style="position:absolute; left: 19em; top: 653px; width: 40px;height: 14px;" onclick="addtotable();">ADD</div>
-        <input style="position:absolute; left: 28em; top: 653px; width: 104px;height: 44px; " type = "button" value = "PRINT" class="button " onclick="window.print()">
-        
         <!-- JS -->
         <script src="js/jsplumb1.js"></script>
         <script src="js/demo1.js"></script>
@@ -247,19 +260,19 @@
 
       
 <!--table code begins-->
-<div style="margin-top:430px;margin-left: 762px;position:absolute;">
+<div style="margin-top:460px;margin-left: 762px;position:absolute;">
 
-
+<h3 style="position:absolute; margin-top: -25px; margin-left: 200px; ">OBSERVATION TABLE</h3>
 <table class="a" id="tb1" style="float: right;">
 <tr>
 <th>S.NO.</th>  
-<th>LOAD</th>
-<th>VOLTAGE</th>
-<th>CURRENT</th>
+<th>LOAD (KW)</th>
+<th>VOLTAGE (V)</th>
+<th>CURRENT (A)</th>
 <th>NUMBER OF IMPULSE</th>
-<th>ACTUAL ENERGY</th>
-<th>RECORDED ENERGY</th>
-<th>RELATIVE ERROR</th>
+<th>ACTUAL ENERGY (KWh)</th>
+<th>RECORDED ENERGY (KWh)</th>
+<th>RELATIVE ERROR (%)</th>
 </tr>
 <tbody>  
 </tbody>
@@ -268,7 +281,7 @@
 <!--table code ends-->
 
 
-<div class="copyright" style="position:absolute;text-align: center;">&#169Copyright 2022 Virtual Labs, IIT Roorkee</div>
+<div class="copyright" style="position:absolute;text-align: center;">&#169 2022 Virtual Labs, IIT Roorkee</div>
 
 </body>
 
