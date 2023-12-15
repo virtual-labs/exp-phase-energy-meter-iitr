@@ -1,0 +1,5 @@
+[{"question":"Creeping is avoided by __________","answers":{"a":"Reversing the polarity of the voltage","b":"Drilling two diametrically opposite holes","c":" Holding the disc","d":"Increasing the friction"},"correctAnswer":"b"},
+{"question":"In some energy meters, creeping can be avoided by __________","answers":{"a":"attaching small gold pieces","b":"attaching small aluminium pieces","c":"attaching small iron pieces","d":"attaching small zinc pieces"},"correctAnswer":"c"},
+{"question":"The meter constant of single phase energy meter is expressed in terms of-","answers":{"a":"Revolutions/kWh","b":"kW/kWh","c":"Amps/kW","d":"Volts/kWh"},"correctAnswer":"a"},
+{"question":"If voltage supply to the energy meter is more than the rated value, energy meter will run-","answers":{"a":"Slow","b":"Fast","c":"Either of the above","d":"None of the above"},"correctAnswer":"a"},
+{"question":"Aluminium is selected as the material for rotating disc of energy meter because-","answers":{"a":"It is good conductor","b":"It is light","c":"It is indigenously available","d":"All of the above"},"correctAnswer":"d"}]
