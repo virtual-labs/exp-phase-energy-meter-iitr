@@ -1,5 +1,3 @@
-## Procedure<br>
-
 **Step 1:** Make Connections as per the instructions given below:<br>  
    1. **S1** of MCB - **A1** of Ammeter and **A2** of Ammeter - **V1** of Voltmeter<br> 
    2. **V1** of Voltmeter - **Mw** of Wattmeter and **Mw** of Wattmeter - **C** of Wattmeter <br>  
