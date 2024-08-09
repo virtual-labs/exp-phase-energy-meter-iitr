@@ -1,0 +1,5 @@
+[{"question":"Magnitude of flux in an energy meter varies __________","answers":{"a":"Due to abnormal currents and voltages","b":"Due to high resistance and inductance values","c":"Due to changes in the transformer turns","d":"Due to the induced e.m.f in the windings"},"correctAnswer":"a"},
+{"question":"How can temperature effect be compensated in an energy meter?","answers":{"a":"Through heat sinks","b":"By a temperature shunt","c":"By using resistance","d":"By using a coolant"},"correctAnswer":"b"},
+{"question":"Energy meter creeps __________","answers":{"a":"Due to change in supply","b":"Due to reversal in polarity of voltage","c":"Due to asymmetry in magnetic circuit","d":"Due to asymmetry in electric circuit"},"correctAnswer":"c"},
+{"question":"Supply voltage in an energy meter is?","answers":{"a":"Constant always","b":"Zero always","c":"Depends on the load","d":"Can fluctuate"},"correctAnswer":"d"},
+{"question":"How is the flux of shunt coil related to voltage?","answers":{"a":"Flux is proportional to square of voltage","b":"Directly proportional","c":"Inversely proportional","d":"Independent of each other"},"correctAnswer":"a"}]
